@@ -1,0 +1,664 @@
+/*.backgroundimg{
+
+background-image: url("../images/HP_bkimg.png");
+    background-position: center center;
+
+     width;1170px;
+
+     body {
+    background-image: url(../images/HP_bkimg.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+	background-position: center top;
+	margin-top: none;
+	background-size:contain;
+}
+/*body {
+    /*background-image: url(../images/HP_bkimg.png");
+    background-repeat: no-repeat;*/
+
+
+/* background-color: #FCEEF1;
+#E8E0E4
+}*/
+
+/*div {
+  border-style: solid;
+}*/
+body.rod {
+  background-color: #E8E0E4;
+}
+body.grad {
+  background-color: #EFE4DB;
+  /*background-image: url("../images/gradback.png");
+  background-position: background-repeat: no-repeat;*/
+}
+body.home {
+  background-color: #FCEEF1;
+}
+body.work {
+  background-color: #EDE6E4;
+}
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+.fullscreen-bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+}
+video#bgvidworkpage {
+   width:100%;
+   max-width:500px;
+   height:auto;
+   margin-left: 50%;
+}
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+}
+.aboutHello {
+  font-weight: bold;
+  font-family: 'Karla';
+  font-size: 150px
+}
+.aboutTitle {
+  font-weight: bold;
+  font-family: 'Karla';
+  font-size: 30px;
+  line-height: 42px;
+}
+img.playButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.squig {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.mainGif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.rightArrow {
+  /*vertical-align: bottom;*/
+  bottom: 0px;
+  width: 35%;
+}
+.aboutMe {
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 35px;
+}
+.aboutMeText {
+  font-family: 'Karla';
+  font-size: 15px;
+  line-height: 21px;
+}
+.contactMe {
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 35px;
+}
+.contactMeText {
+  font-family: 'Karla';
+  font-size: 15px;
+  line-height: 21px;
+}
+.contactDetails {
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+.header-menu {
+  margin-top: 20px;
+}
+.logo {
+  font-family: 'Mada', sans-serif;
+  font-size: 36px;
+  line-height: 33px;
+  margin-top: 10px;
+  /*margin-left: 30px;*/
+  /*text-decoration: none;*/
+}
+.logoBody {
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+  margin-top: 10px;
+  /*margin-left: 30px;*/
+  color: white;
+}
+.list-inline {
+  float: right;
+  margin-top: 10px;
+  margin-right: -65px;
+}
+.image {
+  width: 1000px;
+}
+
+/*This targets the nav... float right must be put in as it aligns it to the right!*/
+
+a {
+  color: black;
+  font-family: 'Francois One', sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+  /*Targets space between words*/
+}
+
+/*This targets the nav without hover*/
+
+a:hover {
+  text-decoration: none;
+  /*This gets rid of the auto underline*/
+  color: #FFA197;
+}
+
+/*This targets nav when hovered over*/
+
+
+/*
+.hpgif{
+
+    margin-top: 100px;
+    align: "middle";
+    vertical-align: "middle";
+}
+*/
+
+.bgrText {
+  /*position: absolute;*/
+}
+.mainGif {
+  position: absolute;
+  z-index: 0;
+  /*top: 50px;
+  left: 50px;*/
+  /*margin:auto;*/
+}
+.squiggle {
+  margin-top: 10px;
+  width: 125px;
+  margin-left: 55px;
+}
+
+/*squib{
+  top: 50%;
+  left 50%;
+}*/
+
+
+/*END OF HOMEPAGE*/
+
+.firstSideMenuElement {
+  margin-top: 65px;
+}
+.sideMenu {
+  display: block;
+  /*side menu pic widths*/
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sidebar {
+  margin-right: 10px;
+  margin-top: 0px;
+}
+.sidebar a {
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
+}
+.image1 {
+  position: fixed;
+  z-index: 1;
+  margin-top: 140px;
+}
+.image2 {
+  position: fixed;
+  z-index: 1;
+  margin-top: 200px;
+}
+.image3 {
+  position: fixed;
+  z-index: 1;
+  margin-top: 280px;
+}
+.image4 {
+  position: fixed;
+  z-index: 1;
+  margin-top: 360px;
+}
+.image5 {
+  position: fixed;
+  z-index: 1;
+  margin-top: 440px;
+}
+.side2 {
+  margin-top: 20px;
+}
+.navunderline {
+  margin-top: -30px;
+  margin-left: 52px;
+}
+.title {
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 90px;
+}
+.subtitle {
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+.subsubtitle {
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-size: 15spx;
+  font-weight: 600;
+  margin-top: -10px;
+}
+.titledots {
+  /*margin-left: 120px;
+  margin-top: -5px;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text {
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+.subtitleunderline {
+  margin-top: 0px;
+}
+.rodbookgif {
+  margin-top: -35px;
+}
+.downarrow {
+  margin-left: 130px;
+  margin-top: 25px;
+}
+.rodposter {
+  margin-top: 70px;
+}
+.img1 {
+  margin-top: 60px;
+}
+.img2 {
+  margin-top: 160px;
+}
+.img3 {
+  margin-top: 80px;
+}
+.img4 {
+  margin-top: 40px;
+}
+.img5 {
+  margin-top: 75px;
+}
+.img6 {
+  margin-top: 330px;
+}
+.img7 {
+  margin-top: 80px;
+}
+.img8 {
+  margin-top: 350px;
+}
+.img9 {
+  margin-top: 30px;
+}
+.img10 {
+  margin-top: 30px;
+}
+.img11 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.img12 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.img14 {
+  margin-top: 60px;
+}
+
+/**.lightbox img {
+	/** Pad the lightbox image */
+
+
+/**max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+
+
+/**outline: none;
+
+	/** Unhide lightbox **/
+
+
+/**display: block;
+}
+ **/
+
+.imgbottom {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.uparrow {
+  margin-left: 91px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+/**.backtotop{
+
+    color: #FFA197;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}**/
+
+.downarrowgrad {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.img72 {
+  margin-top: 50px;
+}
+.work1 {
+  margin-top: 50px;
+}
+.work2 {
+  margin-top: -40px;
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Float the list items side by side */
+
+ul.topnav li {
+  float: left;
+}
+
+/* Style the links inside the list items */
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 15px;
+  font-family: 'Karla', sans-serif;
+}
+
+/* Change background color of links on hover */
+
+ul.topnav li a:hover {
+  background-color: #555;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+ul.topnav li.icon {
+  display: none;
+}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(: first-child) {
+    display: none;
+  }
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  .logo {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {
+    position: relative;
+  }
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .burger {
+    display: none;
+  }
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Float the list items side by side */
+
+ul.topnav li {
+  float: left;
+}
+
+/* Style the links inside the list items */
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 15px;
+  font-family: 'Karla', sans-serif;
+}
+
+/* Change background color of links on hover */
+
+ul.topnav li a:hover {
+  background-color: #555;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+ul.topnav li.icon {
+  display: none;
+}
+.mobile-menu {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #0000FF;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+/*MOBILE SITE*/
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(: first-child) {
+    display: none;
+  }
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  .title {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .navunderline {
+    display: none;
+  }
+  .titledots {
+    margin-left: 153px;
+  }
+  .mobtitle {
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    text-align: center;
+  }
+  .subtitle {
+    margin-top: 60px;
+    font-size: 15px;
+  }
+  .mobsubtitle {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  .subby {
+    display: none;
+  }
+  .downarrow {
+    display: none;
+  }
+  .mobilerodgif {
+    margin-top: 50px;
+  }
+  .subtitleunderline {
+    margin-top: -20px;
+  }
+  .textmobile {
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    line-height: 25px;
+  }
+  .rodbookgif {
+    display: none;
+  }
+}
+
+/*END OF MOBILE*/
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {
+    position: relative;
+  }
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/*DESKTOP SITE*/
+
+@media only screen and (min-width: 992px) {
+  .burger {
+    display: none;
+  }
+  .mobsubtitle {
+    display: none;
+  }
+  .mobilerodgif {
+    display: none;
+  }
+  .textmobile {
+    display: none;
+  }
+  .mobtitle {
+    display: none;
+  }
+  .mobilebookgif {
+    display: none;
+  }
+  .img2 {
+    display: none;
+  }
+}
