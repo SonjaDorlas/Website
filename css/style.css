@@ -22,9 +22,11 @@ background-image: url("../images/HP_bkimg.png");
 #E8E0E4
 }*/
 
+
 /*div {
   border-style: solid;
 }*/
+
 body.rod {
   background-color: #E8E0E4;
 }
@@ -57,10 +59,10 @@ body.work {
   z-index: -5;
 }
 video#bgvidworkpage {
-   width:100%;
-   max-width:500px;
-   height:auto;
-   margin-left: 50%;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-left: 50%;
 }
 video#bgvid {
   position: fixed;
@@ -197,9 +199,30 @@ a:hover {
 .bgrText {
   /*position: absolute;*/
 }
+.gif_Positioning {
+  position: relative;
+}
 .mainGif {
+  /*display: block;*/
   position: absolute;
-  z-index: 0;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  /*left: 20%;
+  top: 20%;*/
+  /*position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;*/
+  /*position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;*/
   /*top: 50px;
   left: 50px;*/
   /*margin:auto;*/
@@ -217,7 +240,8 @@ a:hover {
 
 
 /*END OF HOMEPAGE*/
-.img_male, .img_female{
+
+.img_male, .img_female {
   width: 30%;
   display: block;
   margin-left: auto;
@@ -226,7 +250,7 @@ a:hover {
 .firstSideMenuElement {
   margin-top: 65px;
 }
-.oneviewTopImage{
+.oneviewTopImage {
   margin-top: 20px;
 }
 .sideMenu {
