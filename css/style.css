@@ -261,6 +261,10 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+.rod_left, .rod_right{
+
+}
+
 .firstSideMenuElement {
   margin-top: 65px;
 }
