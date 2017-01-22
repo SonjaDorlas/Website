@@ -44,7 +44,7 @@ $(".mainGif").css("left", ((logoBodyWidth / 2) - (mainGifWidth / 2)) + "px");
 // }
 
 function randomIt() {
-  return Math.floor(Math.random() * 101)
+  return Math.floor(Math.random() * 300)
 }
 var rand1, rand2, rand3;
 
@@ -105,12 +105,12 @@ function displayImage() {
   var num = Math.floor(Math.random() * 7); // 0...6
   //the second statement display the random image from the imagesArray array in the canvas image using the random number as the subscript value
   // document.canvas.src = imagesArray[num];
-  document.canvas.src = "../images/No_Pink/HP_gifstop_" + (num + 1) + ".png";
-  // document.canvas.src = "../images/Pink/HP_gifstop" + (num + 1) + "_pink.png";
+  document.canvas.src = "No_Pink/HP_gifstop_" + (num + 1) + ".png";
+  // document.canvas.src = "Pink/HP_gifstop" + (num + 1) + "_pink.png";
   // HP_gifstop7_pink.png
 
 }
 
 function resetGif(){
-  document.canvas.src = "../images/HPGIF_slow.gif";
+  document.canvas.src = "HPGIF_slow.gif";
 }
