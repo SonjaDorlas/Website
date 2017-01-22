@@ -156,6 +156,9 @@ img.rightArrow {
 .header-menu-about {
   margin-right: 7px;
 }
+.header-menu-work-line{
+  margin-left: 65px;
+}
 .logo {
   font-family: 'Mada', sans-serif;
   font-size: 36px;
