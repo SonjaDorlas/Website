@@ -22,9 +22,11 @@ background-image: url("../images/HP_bkimg.png");
 #E8E0E4
 }*/
 
+
 /*div {
   border-style: solid;
 }*/
+
 body.rod {
   background-color: #E8E0E4;
 }
@@ -148,10 +150,10 @@ img.rightArrow {
   margin-top: 0px;
   top: 0px;
 }
-.header-menu-work{
+.header-menu-work {
   margin-left: 18px;
 }
-.header-menu-about{
+.header-menu-about {
   margin-right: 7px;
 }
 .logo {
@@ -261,10 +263,15 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-.rod_left, .rod_right{
-
+.rod_left, .rod_right {}
+.img_desmond {
+  margin-top: 40px;
 }
-
+.video_position {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .firstSideMenuElement {
   margin-top: 65px;
 }
@@ -712,7 +719,7 @@ ul.topnav li.icon {
     display: none;
   }
 }
-a{
+a {
   /*fixes default bootstrap anchor spacing issue */
   padding-left: 0px;
 }
