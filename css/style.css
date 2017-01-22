@@ -217,9 +217,17 @@ a:hover {
 
 
 /*END OF HOMEPAGE*/
-
+.img_male, .img_female{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .firstSideMenuElement {
   margin-top: 65px;
+}
+.oneviewTopImage{
+  margin-top: 20px;
 }
 .sideMenu {
   display: block;
