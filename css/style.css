@@ -22,11 +22,9 @@ background-image: url("../images/HP_bkimg.png");
 #E8E0E4
 }*/
 
-
 /*div {
   border-style: solid;
 }*/
-
 body.rod {
   background-color: #E8E0E4;
 }
@@ -138,7 +136,23 @@ img.rightArrow {
   line-height: 25px;
 }
 .header-menu {
-  margin-top: 20px;
+  /*font-family: 'Mada', sans-serif;
+  font-size: 36px;
+  line-height: 33px;*/
+  color: black;
+  font-family: 'Francois One', sans-serif;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  top: 0px;
+}
+.header-menu-work{
+  margin-left: 18px;
+}
+.header-menu-about{
+  margin-right: 7px;
 }
 .logo {
   font-family: 'Mada', sans-serif;
@@ -693,4 +707,8 @@ ul.topnav li.icon {
   .img2 {
     display: none;
   }
+}
+a{
+  /*fixes default bootstrap anchor spacing issue */
+  padding-left: 0px;
 }
