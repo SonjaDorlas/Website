@@ -8,7 +8,11 @@ var mainGifWidth = $(".mainGif").width();
 
 $(".mainGif").css("top", 200 + "px");
 // $(".mainGif").css("top", ((logoBodyHeight / 2) - (mainGifHeight / 2)) + "px");
+<<<<<<< HEAD
 $(".mainGif").css("top", "200px");
+=======
+$(".mainGif").css("top", "170px");
+>>>>>>> master
 $(".mainGif").css("left", ((logoBodyWidth / 2) - (mainGifWidth / 2)) + "px");
 
 
