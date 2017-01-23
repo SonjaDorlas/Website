@@ -156,7 +156,7 @@ img.rightArrow {
 .header-menu-about {
   margin-right: 7px;
 }
-.header-menu-work-line{
+.header-menu-work-line {
   margin-left: 65px;
 }
 .logo {
@@ -225,8 +225,10 @@ a:hover {
   /*display: block;*/
   position: absolute;
   z-index: 1;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+  /*width: 900px;*/
   /*left: 20%;
   top: 20%;*/
   /*position: fixed;
@@ -266,7 +268,21 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-.rod_left, .rod_right {}
+.rod_left, .rod_right {
+  height: 300px;
+  margin-top: 30px;
+}
+.rod_head {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rod_pineapple_left {
+  height: 600px;
+}
+.rod_pineapple_right {
+  height: 600px;
+}
 .img_desmond {
   margin-top: 40px;
 }
@@ -276,7 +292,7 @@ a:hover {
   margin-right: auto;
 }
 .firstSideMenuElement {
-  margin-top: 65px;
+  margin-top: 165px;
 }
 .oneviewTopImage {
   margin-top: 20px;
@@ -470,7 +486,7 @@ a:hover {
   margin-top: 50px;
 }
 .work1 {
-  margin-top: 50px;
+  margin-top: 120px;
 }
 .work2 {
   margin-top: -40px;
