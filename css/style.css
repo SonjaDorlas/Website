@@ -83,13 +83,15 @@ video#bgvid {
 .aboutHello {
   font-weight: bold;
   font-family: 'Karla';
-  font-size: 150px
+  font-size: 150px;
+  color: black;
 }
 .aboutTitle {
   font-weight: bold;
   font-family: 'Karla';
   font-size: 30px;
   line-height: 42px;
+  color: black;
 }
 img.playButton {
   display: block;
@@ -115,27 +117,32 @@ img.rightArrow {
   font-family: 'Karla';
   font-weight: bold;
   font-size: 35px;
+  color: black;
 }
 .aboutMeText {
   font-family: 'Karla';
   font-size: 15px;
   line-height: 21px;
+  color: black;
 }
 .contactMe {
   font-family: 'Karla';
   font-weight: bold;
   font-size: 35px;
+  color: black;
 }
 .contactMeText {
   font-family: 'Karla';
   font-size: 15px;
   line-height: 21px;
+  color: black;
 }
 .contactDetails {
   font-family: 'Karla';
   font-weight: bold;
   font-size: 20px;
   line-height: 25px;
+  color: black;
 }
 .header-menu {
   /*font-family: 'Mada', sans-serif;
@@ -295,7 +302,8 @@ a:hover {
   margin-top: 165px;
 }
 .oneviewTopImage {
-  margin-top: 20px;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 .sideMenu {
   display: block;
@@ -303,6 +311,7 @@ a:hover {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 .sidebar {
   margin-right: 10px;
@@ -416,7 +425,8 @@ a:hover {
   margin-top: 80px;
 }
 .img8 {
-  margin-top: 350px;
+  /*margin-top: 350px;*/
+  margin-top: 80px;
 }
 .img9 {
   margin-top: 30px;
@@ -475,12 +485,19 @@ a:hover {
     margin-top: 10px;
     text-align: center;
 }**/
-
 .downarrowgrad {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  margin-bottom: 50px;
+}
+.grad_top_arrow{
+  margin-top: 250px;
+  margin-bottom: 70px;
+}
+.grad_arrow_2{
+  margin-bottom: 200px;
 }
 .img72 {
   margin-top: 50px;
