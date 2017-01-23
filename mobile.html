@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Sonja Dorlas</title>
+
+  <!-- Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Mada:900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="home">
+
+
+</body>
+<!--<body background="HP_bkimg">-->
+<!--<div class="backgroundimg">-->
+<div class="container-fluid">
+
+
+
+
+
+
+
+  <div class="row">
+    <!-- NAV BAR -->
+    <div class="hidden-sm-xs">
+
+      <div class="col-md-3 logo">sonn;
+        <br>yah.</div>
+
+      <div class="col-md-8 header">
+
+        <ul class="list-inline">
+
+          <li><a href>WORK</a></li>
+          <li><a href>ABOUT</a></li>
+
+        </ul>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- NAV BAR END-->
+
+  <div class="burger">
+    <div class="visable-xs">
+      <ul class="topnav" id="myTopnav">
+        <li><a href="#home">sonn; yah.</a></li>
+
+        <li><a href="#news">Motion Graphics: Desmond</a></li>
+        <li><a href="#news">Identity: IADT Grad Show </a></li>
+        <li><a href="#news">UI/UX: Oneview Healthcare </a></li>
+        <li><a href="#news">Branding & Exhibition: The Heritage Council </a></li>
+        <li><a href="#news">Book & Poster Design: Rodchenko is a Redhead. </a></li>
+
+        <li><a href="#about">About</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+
+    <div class="col-md-4"></div>
+
+    <div class="col-md-4 hpgif">
+
+      <a href="how.html">
+
+
+        <img src="images/hptestgif.gif" onmouseover="displayImage()" onmouseout="this.src='images/hptestgif2.gif'" class="img-responsive" name="canvas">
+
+
+        <!--
+                        <img src="images/hptestgif.gif" onmouseover="this.src='images/hptestgifimg.png'" onmouseout="this.src='images/hptestgif2.gif'" onmouseover="this.src='images/gifimagetemplate2.png'" onmouseout="this.src='images/hptestgif2.gif'" style="width: 500px;" class="img-responsive"></a>
+                            -->
+
+
+
+    </div>
+
+  </div>
+
+
+
+  <div class="row">
+
+    <div class="col-md-5"></div>
+    <!-- EMPTY DIV-->
+
+
+    <div class="col-md-2 squiggle">
+
+      <img class="img-responsive" src="images/hpsquiggle.png"></div>
+
+
+
+  </div>
+
+
+
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+
+
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+  var imagesArray = ["images/hptestgifimg.png", "images/gifimagetemplate2.png"];
+
+
+  //create a function named displayImage
+  //it should not have any values passed into it
+
+  function displayImage() {
+
+    //the first statement should generate a random number in the range 0 to 6 (the subscript values of the image file names in the imagesArray)
+    var num = Math.floor(Math.random() * 2); // 0...6
+
+    //the second statement display the random image from the imagesArray array in the canvas image using the random number as the subscript value
+    document.canvas.src = imagesArray[num];
+
+  }
+
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+</body>
+
+</html>
