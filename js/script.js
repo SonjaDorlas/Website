@@ -44,6 +44,17 @@ $(".mainGif").css("left", ((logoBodyWidth / 2) - (mainGifWidth / 2)) + "px");
   // console.log("text" + i + " position : ");
 // }
 
+
+// $('.carousel').carousel({
+//   interval: 2000,
+// })
+
+// $(document).ready(function(){
+//   $('.carousel').carousel({
+//     interval: 2000
+//     });
+// });
+
 function randomIt() {
   return Math.floor(Math.random() * 300)
 }

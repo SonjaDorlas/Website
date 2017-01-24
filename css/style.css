@@ -27,6 +27,28 @@ background-image: url("../images/HP_bkimg.png");
   border-style: solid;
 }*/
 
+/* BEGIN CSS CAROUSEL */
+.carousel {
+  width: 500px;  /*test width*/
+  height: 300px; /*what ever height */
+}
+.middle {
+  position: relative;
+  height: 300px; /*what ever height */
+}
+
+.middle img {
+  max-width: 100%;
+  max-height: 100%; /*what ever height */
+  margin: auto;
+  /*position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;*/
+}
+/* END CSS CAROUSEL */
+
 body.rod {
   background-color: #E8E0E4;
 }
