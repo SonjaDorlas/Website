@@ -38,12 +38,39 @@ background-image: url("../images/HP_bkimg.png");
     /*position: absolute;
     top: 0;
     left: 0;*/
-    min-height: 700px;
+    height: 700px;
+}
+
+img.gradimg {
+    width: 100%;
+    height: auto;
+}
+
+img.gradimgDouble {
+    width: 100%;
+}
+
+img.grad-img {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 35%;
+}
+
+img.grad-img-8 {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: 35%;
 }
 
 .modal-border {
     border-style: hidden;
     padding: 0px;
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    background-color: rgba(0, 20, 80, 0.0);
 }
 
 
@@ -123,14 +150,6 @@ video#bgvid {
     font-size: 30px;
     line-height: 42px;
     color: black;
-}
-
-img.gradimg {
-    width: 100%;
-}
-
-img.gradimgDouble {
-    width: 100%;
 }
 
 img.playButton {
