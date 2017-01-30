@@ -24,216 +24,254 @@ background-image: url("../images/HP_bkimg.png");
 
 
 /*div {
-  border-style: solid;
+    border-style: solid;
 }*/
 
+
 /* BEGIN CSS CAROUSEL */
-.carousel {
-  width: 500px;  /*test width*/
-  height: 300px; /*what ever height */
-}
-.middle {
-  position: relative;
-  height: 300px; /*what ever height */
+
+.carousel .carousel-item {
+    height: 700px;
 }
 
-.middle img {
-  max-width: 100%;
-  max-height: 100%; /*what ever height */
-  margin: auto;
-  /*position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;*/
+.carousel-item img {
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    min-height: 700px;
 }
+
+.modal-border {
+    border-style: hidden;
+    padding: 0px;
+}
+
+
 /* END CSS CAROUSEL */
 
 body.rod {
-  background-color: #E8E0E4;
+    background-color: #E8E0E4;
 }
+
 body.grad {
-  background-color: #EFE4DB;
-  /*background-image: url("../images/gradback.png");
+    background-color: #EFE4DB;
+    /*background-image: url("../images/gradback.png");
   background-position: background-repeat: no-repeat;*/
 }
+
 body.home {
-  background-color: #FCEEF1;
+    background-color: #FCEEF1;
 }
+
 body.work {
-  background-color: #EDE6E4;
+    background-color: #EDE6E4;
 }
+
 .fullscreen-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
 }
+
 .fullscreen-bg-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
 }
+
 video#bgvidworkpage {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  margin-left: 50%;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-left: 50%;
 }
+
 video#bgvid {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: url(polina.jpg) no-repeat;
-  background-size: cover;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
 }
+
 .aboutHello {
-  font-weight: bold;
-  font-family: 'Karla';
-  font-size: 150px;
-  color: black;
+    font-weight: bold;
+    font-family: 'Karla';
+    font-size: 150px;
+    color: black;
 }
+
 .aboutTitle {
-  font-weight: bold;
-  font-family: 'Karla';
-  font-size: 30px;
-  line-height: 42px;
-  color: black;
+    font-weight: bold;
+    font-family: 'Karla';
+    font-size: 30px;
+    line-height: 42px;
+    color: black;
 }
+
+img.gradimg {
+    width: 100%;
+}
+
+img.gradimgDouble {
+    width: 100%;
+}
+
 img.playButton {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 img.squig {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 img.mainGif {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 img.rightArrow {
-  /*vertical-align: bottom;*/
-  bottom: 0px;
-  width: 35%;
+    /*vertical-align: bottom;*/
+    bottom: 0px;
+    width: 35%;
 }
+
 .aboutMe {
-  font-family: 'Karla';
-  font-weight: bold;
-  font-size: 35px;
-  color: black;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
 }
+
 .aboutMeText {
-  font-family: 'Karla';
-  font-size: 15px;
-  line-height: 21px;
-  color: black;
+    font-family: 'Karla';
+    font-size: 15px;
+    line-height: 21px;
+    color: black;
 }
+
 .contactMe {
-  font-family: 'Karla';
-  font-weight: bold;
-  font-size: 35px;
-  color: black;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
 }
+
 .contactMeText {
-  font-family: 'Karla';
-  font-size: 15px;
-  line-height: 21px;
-  color: black;
+    font-family: 'Karla';
+    font-size: 15px;
+    line-height: 21px;
+    color: black;
 }
+
 .contactDetails {
-  font-family: 'Karla';
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 25px;
-  color: black;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
 }
+
 .header-menu {
-  /*font-family: 'Mada', sans-serif;
+    /*font-family: 'Mada', sans-serif;
   font-size: 36px;
   line-height: 33px;*/
-  color: black;
-  font-family: 'Francois One', sans-serif;
-  font-size: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  top: 0px;
+    color: black;
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    top: 0px;
 }
+
 .header-menu-work {
-  margin-left: 20px;
+    margin-left: 20px;
 }
-.header-menu-work-line{
-  margin-left: 70px;
-}
-.header-menu-about {
-  margin-right: 7px;
-}
+
 .header-menu-work-line {
-  margin-left: 65px;
+    margin-left: 70px;
 }
+
+.header-menu-about {
+    margin-right: 7px;
+}
+
+.header-menu-work-line {
+    margin-left: 65px;
+}
+
 .logo {
-  font-family: 'Mada', sans-serif;
-  font-size: 36px;
-  line-height: 33px;
-  margin-top: 10px;
-  /*margin-right: -30px;*/
-  /*text-decoration: none;*/
+    font-family: 'Mada', sans-serif;
+    font-size: 36px;
+    line-height: 33px;
+    margin-top: 10px;
+    /*margin-right: -30px;*/
+    /*text-decoration: none;*/
 }
+
 .logoBody {
-  font-family: 'Karla', sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 36px;
-  margin-top: 10px;
-  /*margin-left: 30px;*/
-  color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 10px;
+    /*margin-left: 30px;*/
+    color: white;
 }
+
 .list-inline {
-  float: right;
-  margin-top: 10px;
-  margin-right: -65px;
+    float: right;
+    margin-top: 10px;
+    margin-right: -65px;
 }
+
 .image {
-  width: 1000px;
+    width: 1000px;
 }
+
 
 /*This targets the nav... float right must be put in as it aligns it to the right!*/
 
 a {
-  color: black;
-  font-family: 'Francois One', sans-serif;
-  font-size: 20px;
-  padding-left: 20px;
-  /*Targets space between words*/
+    color: black;
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    /*Targets space between words*/
 }
+
 
 /*This targets the nav without hover*/
 
 a:hover {
-  text-decoration: none;
-  /*This gets rid of the auto underline*/
-  color: #FFA197;
+    text-decoration: none;
+    /*This gets rid of the auto underline*/
+    color: #FFA197;
 }
+
 
 /*This targets nav when hovered over*/
 
@@ -248,22 +286,24 @@ a:hover {
 */
 
 .bgrText {
-  /*position: absolute;*/
+    /*position: absolute;*/
 }
+
 .gif_Positioning {
-  position: relative;
+    position: relative;
 }
+
 .mainGif {
-  /*display: block;*/
-  position: absolute;
-  z-index: 1;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  /*width: 900px;*/
-  /*left: 20%;
+    /*display: block;*/
+    position: absolute;
+    z-index: 1;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 900px;*/
+    /*left: 20%;
   top: 20%;*/
-  /*position: fixed;
+    /*position: fixed;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -271,20 +311,22 @@ a:hover {
   width: auto;
   height: auto;
   z-index: -100;*/
-  /*position: absolute;
+    /*position: absolute;
   display: block;
   margin-left: auto;
   margin-right: auto;
   z-index: 1;*/
-  /*top: 50px;
+    /*top: 50px;
   left: 50px;*/
-  /*margin:auto;*/
+    /*margin:auto;*/
 }
+
 .squiggle {
-  margin-top: 10px;
-  width: 125px;
-  margin-left: 55px;
+    margin-top: 10px;
+    width: 125px;
+    margin-left: 55px;
 }
+
 
 /*squib{
   top: 50%;
@@ -295,181 +337,222 @@ a:hover {
 /*END OF HOMEPAGE*/
 
 .img_male, .img_female {
-  width: 30%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .rod_left, .rod_right {
-  height: 300px;
-  margin-top: 30px;
+    height: 300px;
+    margin-top: 30px;
 }
+
 .rod_head {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .rod_pineapple_left {
-  height: 600px;
+    height: 600px;
 }
+
 .rod_pineapple_right {
-  height: 600px;
+    height: 600px;
 }
+
 .img_desmond {
-  margin-top: 40px;
+    margin-top: 40px;
 }
+
 .video_position {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .firstSideMenuElement {
-  margin-top: 165px;
+    margin-top: 165px;
 }
+
 .oneviewTopImage {
-  margin-top: 80px;
-  margin-bottom: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
+
 .sideMenu {
-  display: block;
-  /*side menu pic widths*/
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
+    display: block;
+    /*side menu pic widths*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
+
 .sidebar {
-  margin-right: 10px;
-  margin-top: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
 }
+
 .sidebar a {
-  position: fixed;
-  z-index: 1;
-  margin-top: 0px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px;
 }
+
 .image1 {
-  position: fixed;
-  z-index: 1;
-  margin-top: 140px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 140px;
 }
+
 .image2 {
-  position: fixed;
-  z-index: 1;
-  margin-top: 200px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 200px;
 }
+
 .image3 {
-  position: fixed;
-  z-index: 1;
-  margin-top: 280px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 280px;
 }
+
 .image4 {
-  position: fixed;
-  z-index: 1;
-  margin-top: 360px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 360px;
 }
+
 .image5 {
-  position: fixed;
-  z-index: 1;
-  margin-top: 440px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 440px;
 }
+
 .side2 {
-  margin-top: 20px;
+    margin-top: 20px;
 }
+
 .navunderline {
-  margin-top: -30px;
-  margin-left: 52px;
+    margin-top: -30px;
+    margin-left: 52px;
 }
+
 .title {
-  color: black;
-  font-family: 'Karla', sans-serif;
-  font-size: 30px;
-  font-weight: 800;
-  text-align: center;
-  margin-top: 90px;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 90px;
 }
+
 .subtitle {
-  color: black;
-  font-family: 'Karla', sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-  margin-top: 50px;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 50px;
 }
+
 .subsubtitle {
-  color: black;
-  font-family: 'Karla', sans-serif;
-  font-size: 15spx;
-  font-weight: 600;
-  margin-top: -10px;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 15spx;
+    font-weight: 600;
+    margin-top: -10px;
 }
+
 .titledots {
-  /*margin-left: 120px;
+    /*margin-left: 120px;
   margin-top: -5px;*/
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .text {
-  color: black;
-  font-family: 'Karla', sans-serif;
-  font-size: 15px;
-  margin-top: 20px;
-  line-height: 25px;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
 }
+
 .subtitleunderline {
-  margin-top: 0px;
+    margin-top: 0px;
 }
+
 .rodbookgif {
-  margin-top: -35px;
+    margin-top: -35px;
 }
+
 .downarrow {
-  margin-left: 130px;
-  margin-top: 25px;
+    margin-left: 130px;
+    margin-top: 25px;
 }
+
 .rodposter {
-  margin-top: 70px;
+    margin-top: 70px;
 }
+
 .img1 {
-  margin-top: 60px;
+    margin-top: 60px;
 }
+
 .img2 {
-  margin-top: 160px;
+    margin-top: 160px;
 }
+
 .img3 {
-  margin-top: 80px;
+    margin-top: 80px;
 }
+
 .img4 {
-  margin-top: 40px;
+    margin-top: 40px;
 }
+
 .img5 {
-  margin-top: 75px;
+    margin-top: 75px;
 }
+
 .img6 {
-  margin-top: 330px;
+    margin-top: 330px;
 }
+
 .img7 {
-  margin-top: 80px;
+    margin-top: 80px;
 }
+
 .img8 {
-  /*margin-top: 350px;*/
-  margin-top: 80px;
+    /*margin-top: 350px;*/
+    margin-top: 80px;
 }
+
 .img9 {
-  margin-top: 30px;
+    margin-top: 30px;
 }
+
 .img10 {
-  margin-top: 30px;
+    margin-top: 30px;
 }
+
 .img11 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 .img12 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 .img14 {
-  margin-top: 60px;
+    margin-top: 60px;
 }
+
 
 /**.lightbox img {
 	/** Pad the lightbox image */
@@ -493,14 +576,16 @@ a:hover {
  **/
 
 .imgbottom {
-  margin-bottom: 50px;
-  margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
+
 .uparrow {
-  margin-left: 91px;
-  margin-top: 40px;
-  margin-bottom: 30px;
+    margin-left: 91px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
+
 
 /**.backtotop{
 
@@ -510,277 +595,301 @@ a:hover {
     margin-top: 10px;
     text-align: center;
 }**/
+
 .downarrowgrad {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
-.grad_top_arrow{
-  margin-top: 250px;
-  margin-bottom: 70px;
+
+.grad_top_arrow {
+    margin-top: 250px;
+    margin-bottom: 70px;
 }
-.grad_arrow_2{
-  margin-bottom: 200px;
+
+.grad_arrow_2 {
+    margin-bottom: 200px;
 }
+
 .img72 {
-  margin-top: 50px;
+    margin-top: 50px;
 }
+
 .work1 {
-  margin-top: 120px;
+    margin-top: 120px;
 }
+
 .work2 {
-  margin-top: -40px;
+    margin-top: -40px;
 }
+
 
 /* Remove margins and padding from the list, and add a black background color */
 
 ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
 
 /* Float the list items side by side */
 
 ul.topnav li {
-  float: left;
+    float: left;
 }
+
 
 /* Style the links inside the list items */
 
 ul.topnav li a {
-  display: inline-block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.3s;
-  font-size: 15px;
-  font-family: 'Karla', sans-serif;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
 }
+
 
 /* Change background color of links on hover */
 
 ul.topnav li a:hover {
-  background-color: #555;
+    background-color: #555;
 }
+
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 
 ul.topnav li.icon {
-  display: none;
+    display: none;
 }
+
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 
 @media screen and (max-width:680px) {
-  ul.topnav li:not(: first-child) {
-    display: none;
-  }
-  ul.topnav li.icon {
-    float: right;
-    display: inline-block;
-  }
-  .logo {
-    display: none;
-  }
-  .header {
-    display: none;
-  }
+    ul.topnav li:not(: first-child) {
+        display: none;
+    }
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+    .logo {
+        display: none;
+    }
+    .header {
+        display: none;
+    }
 }
+
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 
 @media screen and (max-width:680px) {
-  ul.topnav.responsive {
-    position: relative;
-  }
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
 }
+
 @media only screen and (min-width: 992px) {
-  .burger {
-    display: none;
-  }
+    .burger {
+        display: none;
+    }
 }
+
 
 /* Remove margins and padding from the list, and add a black background color */
 
 ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
 
 /* Float the list items side by side */
 
 ul.topnav li {
-  float: left;
+    float: left;
 }
+
 
 /* Style the links inside the list items */
 
 ul.topnav li a {
-  display: inline-block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.3s;
-  font-size: 15px;
-  font-family: 'Karla', sans-serif;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
 }
+
 
 /* Change background color of links on hover */
 
 ul.topnav li a:hover {
-  background-color: #555;
+    background-color: #555;
 }
+
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 
 ul.topnav li.icon {
-  display: none;
+    display: none;
 }
+
 .mobile-menu {
-  border-style: solid;
-  border-width: 1px;
-  display: block;
-  width: 100px;
-  height: 100px;
-  background-color: #0000FF;
-  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #0000FF;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
+
 
 /*MOBILE SITE*/
 
 @media screen and (max-width:680px) {
-  ul.topnav li:not(: first-child) {
-    display: none;
-  }
-  ul.topnav li.icon {
-    float: right;
-    display: inline-block;
-  }
-  .title {
-    display: none;
-  }
-  .logo {
-    display: none;
-  }
-  .header {
-    display: none;
-  }
-  .navunderline {
-    display: none;
-  }
-  .titledots {
-    margin-left: 153px;
-  }
-  .mobtitle {
-    margin-top: 30px;
-    font-size: 25px;
-    font-family: 'Karla', sans-serif;
-    font-weight: 800;
-    text-align: center;
-  }
-  .subtitle {
-    margin-top: 60px;
-    font-size: 15px;
-  }
-  .mobsubtitle {
-    margin-top: 0px;
-    font-size: 15px;
-  }
-  .subby {
-    display: none;
-  }
-  .downarrow {
-    display: none;
-  }
-  .mobilerodgif {
-    margin-top: 50px;
-  }
-  .subtitleunderline {
-    margin-top: -20px;
-  }
-  .textmobile {
-    color: black;
-    font-family: 'Karla', sans-serif;
-    font-size: 15px;
-    margin-top: 5px;
-    line-height: 25px;
-  }
-  .rodbookgif {
-    display: none;
-  }
+    ul.topnav li:not(: first-child) {
+        display: none;
+    }
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+    .title {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .header {
+        display: none;
+    }
+    .navunderline {
+        display: none;
+    }
+    .titledots {
+        margin-left: 153px;
+    }
+    .mobtitle {
+        margin-top: 30px;
+        font-size: 25px;
+        font-family: 'Karla', sans-serif;
+        font-weight: 800;
+        text-align: center;
+    }
+    .subtitle {
+        margin-top: 60px;
+        font-size: 15px;
+    }
+    .mobsubtitle {
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .subby {
+        display: none;
+    }
+    .downarrow {
+        display: none;
+    }
+    .mobilerodgif {
+        margin-top: 50px;
+    }
+    .subtitleunderline {
+        margin-top: -20px;
+    }
+    .textmobile {
+        color: black;
+        font-family: 'Karla', sans-serif;
+        font-size: 15px;
+        margin-top: 5px;
+        line-height: 25px;
+    }
+    .rodbookgif {
+        display: none;
+    }
 }
+
 
 /*END OF MOBILE*/
 
 @media screen and (max-width:680px) {
-  ul.topnav.responsive {
-    position: relative;
-  }
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
 }
+
 
 /*DESKTOP SITE*/
 
 @media only screen and (min-width: 992px) {
-  .burger {
-    display: none;
-  }
-  .mobsubtitle {
-    display: none;
-  }
-  .mobilerodgif {
-    display: none;
-  }
-  .textmobile {
-    display: none;
-  }
-  .mobtitle {
-    display: none;
-  }
-  .mobilebookgif {
-    display: none;
-  }
-  .img2 {
-    display: none;
-  }
+    .burger {
+        display: none;
+    }
+    .mobsubtitle {
+        display: none;
+    }
+    .mobilerodgif {
+        display: none;
+    }
+    .textmobile {
+        display: none;
+    }
+    .mobtitle {
+        display: none;
+    }
+    .mobilebookgif {
+        display: none;
+    }
+    .img2 {
+        display: none;
+    }
 }
+
 a {
-  /*fixes default bootstrap anchor spacing issue */
-  padding-left: 0px;
+    /*fixes default bootstrap anchor spacing issue */
+    padding-left: 0px;
 }
