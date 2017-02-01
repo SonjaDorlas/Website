@@ -681,7 +681,7 @@ ul.topnav li.icon {
 /* NAV BAR MOBILE */
 
 .mobile-header{
-  width: 100%;
+  width: 50%;
   background-color: #FFA197;
   font-family: 'Mada', sans-serif;
   font-size: 18px;
@@ -716,6 +716,7 @@ table, tr, td{
 
 .icon{
   text-align: right;
+  vertical-align: middle;
 }
 
 .clean-border{
