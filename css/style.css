@@ -682,15 +682,23 @@ ul.topnav li.icon {
 
 .mobile-header{
   width: 50%;
-  background-color: #FFA197;
+  background-color: rgba(0,0,0,0.0);
   font-family: 'Mada', sans-serif;
   font-size: 18px;
   line-height: 16px;
-  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .mobile-header-on{
   color: white;
+  background-color: #FFA197;
+}
+
+.icon{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .icon-on{
@@ -714,16 +722,6 @@ table, tr, td{
   z-index: 1;
 }
 
-.icon{
-  text-align: right;
-  vertical-align: middle;
-}
-
-.clean-border{
-  border: 1px solid #FFA197;
-  /*border: 3px solid red;*/
-
-}
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 
