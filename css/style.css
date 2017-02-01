@@ -47,6 +47,51 @@ img.mainGif {
     margin-right: auto;
 }
 
+.mainGif {
+    position: absolute;
+    z-index: 10;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainGif-mobile {
+    position: absolute;
+    z-index: 10; /* note mobile menu at z-index: 20 */
+    /*margin-top: 100px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlight {
+    color: #FFA197;
+}
+
+.logo {
+    font-family: 'Mada', sans-serif;
+    font-size: 36px;
+    line-height: 33px;
+    margin-top: 10px;
+    /*margin-right: -30px;*/
+    /*text-decoration: none;*/
+}
+
+.logoBody {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 10px;
+    /*margin-left: 30px;*/
+    color: white;
+}
+
+.logoBody-mobile{
+  font-size: 12px;
+  line-height: 24px;
+}
+
+
 
 /* WORK PAGE */
 
@@ -226,8 +271,53 @@ img.grad-img-8 {
     background-color: rgba(0, 0, 0, 0.0);
 }
 
-
 /* END CSS CAROUSEL */
+
+/* NAV BAR MOBILE */
+
+.mobile-header{
+  width: 50%;
+  background-color: rgba(0,0,0,0.0);
+  font-family: 'Mada', sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mobile-header-on{
+  color: white;
+  background-color: #FFA197;
+}
+
+.icon{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.icon-on{
+  color: white;
+}
+
+table, tr, td{
+  background-color: white;
+  border: 10px solid #FFA197;
+  padding: 0px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  color: #FFA197;
+}
+
+.mobile-menu{
+  position: absolute;
+  padding: 0px;
+  z-index: 20;
+}
+
+/* MEDIUM SCREEN NAV BAR */
 
 .header-menu {
     /*font-family: 'Mada', sans-serif;
@@ -259,24 +349,6 @@ img.grad-img-8 {
     margin-left: 65px;
 }
 
-.logo {
-    font-family: 'Mada', sans-serif;
-    font-size: 36px;
-    line-height: 33px;
-    margin-top: 10px;
-    /*margin-right: -30px;*/
-    /*text-decoration: none;*/
-}
-
-.logoBody {
-    font-family: 'Karla', sans-serif;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 36px;
-    margin-top: 10px;
-    /*margin-left: 30px;*/
-    color: white;
-}
 
 .list-inline {
     float: right;
@@ -329,13 +401,6 @@ a:hover {
     position: relative;
 }
 
-.mainGif {
-    position: absolute;
-    z-index: 1;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .squiggle {
     margin-top: 10px;
@@ -676,50 +741,6 @@ ul.topnav li a:hover {
 
 ul.topnav li.icon {
     display: none;
-}
-
-/* NAV BAR MOBILE */
-
-.mobile-header{
-  width: 50%;
-  background-color: rgba(0,0,0,0.0);
-  font-family: 'Mada', sans-serif;
-  font-size: 18px;
-  line-height: 16px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.mobile-header-on{
-  color: white;
-  background-color: #FFA197;
-}
-
-.icon{
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.icon-on{
-  color: white;
-}
-
-table, tr, td{
-  background-color: white;
-  border: 10px solid #FFA197;
-  padding: 0px;
-  width: 100%;
-  margin-left: 0px;
-  margin-right: 0px;
-  text-align: center;
-  color: #FFA197;
-}
-
-.mobile-menu{
-  position: absolute;
-  padding: 0px;
-  z-index: 1;
 }
 
 

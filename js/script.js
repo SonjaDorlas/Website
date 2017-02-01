@@ -2,62 +2,26 @@
 //
 var logoBodyHeight = $(".logoBody").height();
 var mainGifHeight = $(".mainGif").height();
+var mainGifHeightMobile = $(".mainGif-mobile").height();
 
 var logoBodyWidth = $(".logoBody").width();
 var mainGifWidth = $(".mainGif").width();
+var mainGifWidthMobile = $(".mainGif-mobile").width();
+console.log('logoBodyWidth = ' + logoBodyWidth);
+console.log('mainGifWidthMobile = ' + mainGifWidthMobile);
 
 $('.carousel').carousel('cycle');
 
 $('#modal').modal();
 
-$(".mainGif").css("top", 200 + "px");
+// $(".mainGif").css("top", 200 + "px");
 // $(".mainGif").css("top", ((logoBodyHeight / 2) - (mainGifHeight / 2)) + "px");
 
-$(".mainGif").css("top", "170px");
+// $(".mainGif").css("top", "170px");
 
 $(".mainGif").css("left", ((logoBodyWidth / 2) - (mainGifWidth / 2)) + "px");
+$(".mainGif-mobile").css("left", ((mainGifWidthMobile / 2) - (logoBodyWidth / 2)) + "px");
 
-
-// $(".text0").css("color", "black")
-// var picPos = $(".mainGif").offset();
-// // console.log(picPos.left);
-// for (var i = 0; i <= 20; i++) {
-// var x =  $(".text" + i).offset();
-//   console.log("blah " + i);
-//   console.log(".text" + i + " : " + $(".text" + i).text());
-//   console.log("x.left : " + x.left);
-//   console.log("------------------------");
-// }
-// var x =  $(".text" + i).offset();
-// spanWidth = $(".text" + i).width();
-// possibility 1 :
-// if(((x.left < picPos.left) && ((x.left + spanWidth) > (picPos.left)))||((picPos.left < x.left) && ((x.left + spanWidth) < (picPos.left + mainGifWidth)))||((picPos.left > x.left) && ((x.left + spanWidth) > (picPos.left + mainGifWidth)))||((picPos.left < x.left) && ((x.left + spanWidth) > (picPos.left + mainGifWidth)))){
-// if((x.left < picPos.left) && ((x.left + spanWidth) > (picPos.left))){
-// $(".text" + i).css("color", "blue");
-// console.log(".text" + i + " : " + $(".text" + i).text());
-// console.log("x.left : " + x.left);
-// console.log("x : " +  $(".text" + i).offset);
-//
-// console.log("picPos.left : " + picPos.left);
-// console.log("spanWidth : " + spanWidth);
-// console.log(" ");
-// }
-
-// console.log("Top: " + x.top + " Left: " + x.left);
-// console.log("text" + i + ": text" + $(".text" + i).text());
-// console.log("text" + i + " position : ");
-// }
-
-
-// $('.carousel').carousel({
-//   interval: 2000,
-// })
-
-// $(document).ready(function(){
-//   $('.carousel').carousel({
-//     interval: 2000
-//     });
-// });
 
 $(".button").click(function() {
     $(".phase").toggle();
