@@ -59,8 +59,12 @@ $(".mainGif").css("left", ((logoBodyWidth / 2) - (mainGifWidth / 2)) + "px");
 //     });
 // });
 
+$(".button").click(function() {
+    $(".phase").toggle();
+});
+
 function randomIt() {
-    return Math.floor(Math.random() * 300)
+    return Math.floor(Math.random() * 200)
 }
 var rand1, rand2, rand3;
 

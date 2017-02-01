@@ -23,12 +23,165 @@ background-image: url("../images/HP_bkimg.png");
 }*/
 
 
+
 /*div {
     border-style: solid;
 }*/
 
 
-/* BEGIN CSS CAROUSEL */
+/* HOME PAGE */
+
+body.home {
+    background-color: #FCEEF1;
+}
+
+img.squig {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.mainGif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* WORK PAGE */
+
+body.work {
+    background-color: #EDE6E4;
+}
+
+video#bgvidworkpage {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-left: 50%;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+}
+
+
+/* ABOUT PAGE */
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+.aboutHello {
+    font-weight: bold;
+    font-family: 'Karla';
+    font-size: 150px;
+    color: black;
+}
+
+.aboutTitle {
+    font-weight: bold;
+    font-family: 'Karla';
+    font-size: 30px;
+    line-height: 42px;
+    color: black;
+}
+
+img.playButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.rightArrow {
+    /*vertical-align: bottom;*/
+    bottom: 0px;
+    /*margin-bottom: 0px;*/
+    width: 35%;
+}
+
+.aboutMe {
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+.aboutMeText {
+    font-family: 'Karla';
+    font-size: 15px;
+    line-height: 21px;
+    color: black;
+}
+
+.contactMe {
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+.contactMeText {
+    font-family: 'Karla';
+    font-size: 15px;
+    line-height: 21px;
+    color: black;
+}
+
+.contactDetails {
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
+}
+
+
+/* RODENCHENK PAGE */
+
+body.rod {
+    background-color: #E8E0E4;
+}
+
+
+/* GRAD PAGE */
+
+body.grad {
+    background-color: #EFE4DB;
+    /*background-image: url("../images/gradback.png");
+  background-position: background-repeat: no-repeat;*/
+}
+
+
+/* BEGIN CSS CAROUSEL used in grad.html*/
 
 .carousel .carousel-item {
     height: 700px;
@@ -70,147 +223,11 @@ img.grad-img-8 {
     border-style: hidden;
     padding: 0px;
     /*background-color: rgba(255, 255, 255, 0.9);*/
-    background-color: rgba(0, 20, 80, 0.0);
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
 
 /* END CSS CAROUSEL */
-
-body.rod {
-    background-color: #E8E0E4;
-}
-
-body.grad {
-    background-color: #EFE4DB;
-    /*background-image: url("../images/gradback.png");
-  background-position: background-repeat: no-repeat;*/
-}
-
-body.home {
-    background-color: #FCEEF1;
-}
-
-body.work {
-    background-color: #EDE6E4;
-}
-
-.fullscreen-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-}
-
-.fullscreen-bg-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -5;
-}
-
-video#bgvidworkpage {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin-left: 50%;
-}
-
-video#bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover;
-}
-
-.aboutHello {
-    font-weight: bold;
-    font-family: 'Karla';
-    font-size: 150px;
-    color: black;
-}
-
-.aboutTitle {
-    font-weight: bold;
-    font-family: 'Karla';
-    font-size: 30px;
-    line-height: 42px;
-    color: black;
-}
-
-img.playButton {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img.squig {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img.mainGif {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img.rightArrow {
-    /*vertical-align: bottom;*/
-    bottom: 0px;
-    width: 35%;
-}
-
-.aboutMe {
-    font-family: 'Karla';
-    font-weight: bold;
-    font-size: 35px;
-    color: black;
-}
-
-.aboutMeText {
-    font-family: 'Karla';
-    font-size: 15px;
-    line-height: 21px;
-    color: black;
-}
-
-.contactMe {
-    font-family: 'Karla';
-    font-weight: bold;
-    font-size: 35px;
-    color: black;
-}
-
-.contactMeText {
-    font-family: 'Karla';
-    font-size: 15px;
-    line-height: 21px;
-    color: black;
-}
-
-.contactDetails {
-    font-family: 'Karla';
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 25px;
-    color: black;
-}
 
 .header-menu {
     /*font-family: 'Mada', sans-serif;
@@ -313,31 +330,11 @@ a:hover {
 }
 
 .mainGif {
-    /*display: block;*/
     position: absolute;
     z-index: 1;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    /*width: 900px;*/
-    /*left: 20%;
-  top: 20%;*/
-    /*position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;*/
-    /*position: absolute;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 1;*/
-    /*top: 50px;
-  left: 50px;*/
-    /*margin:auto;*/
 }
 
 .squiggle {
@@ -345,15 +342,6 @@ a:hover {
     width: 125px;
     margin-left: 55px;
 }
-
-
-/*squib{
-  top: 50%;
-  left 50%;
-}*/
-
-
-/*END OF HOMEPAGE*/
 
 .img_male, .img_female {
     width: 30%;
@@ -690,6 +678,51 @@ ul.topnav li.icon {
     display: none;
 }
 
+/* NAV BAR MOBILE */
+
+.mobile-header{
+  width: 100%;
+  background-color: #FFA197;
+  font-family: 'Mada', sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+.mobile-header-on{
+  color: white;
+}
+
+.icon-on{
+  color: white;
+}
+
+table, tr, td{
+  background-color: white;
+  border: 10px solid #FFA197;
+  padding: 0px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  color: #FFA197;
+}
+
+.mobile-menu{
+  position: absolute;
+  padding: 0px;
+  z-index: 1;
+}
+
+.icon{
+  text-align: right;
+}
+
+.clean-border{
+  border: 1px solid #FFA197;
+  /*border: 3px solid red;*/
+
+}
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 
@@ -783,16 +816,6 @@ ul.topnav li.icon {
     display: none;
 }
 
-.mobile-menu {
-    border-style: solid;
-    border-width: 1px;
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color: #0000FF;
-    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-}
 
 
 /*MOBILE SITE*/
