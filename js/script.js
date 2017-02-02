@@ -2,14 +2,17 @@
 //
 var logoBodyHeight = $(".logoBody").height();
 var mainGifHeight = $(".mainGif").height();
-var mainGifHeightMobile = $(".mainGif-mobile").height();
 
 var logoBodyWidth = $(".logoBody").width();
 var mainGifWidth = $(".mainGif").width();
 var mainGifWidthMobile = $(".mainGif-mobile").width();
+var windowWidth = window.innerWidth;
+var gifMobPos = (windowWidth/2) - (mainGifWidthMobile/2);
+
 console.log('logoBodyWidth = ' + logoBodyWidth);
 console.log('mainGifWidthMobile = ' + mainGifWidthMobile);
-
+console.log('windowWidth = ' + windowWidth);
+console.log('gifMobPos = ' + gifMobPos);
 $('.carousel').carousel('cycle');
 
 $('#modal').modal();
@@ -19,20 +22,20 @@ $('#modal').modal();
 
 // $(".mainGif").css("top", "170px");
 
-$(".mainGif").css("left", ((logoBodyWidth / 2) - (mainGifWidth / 2)) + "px");
-$(".mainGif-mobile").css("left", ((mainGifWidthMobile / 2) - (logoBodyWidth / 2)) + "px");
-
+$(".mainGif").css("left", ((logoBodyWidth - mainGifWidth) / 2) + "px");
+// $(".mainGif-mobile").css("left", (gifMobPos) + "px");
+$(".mainGif-mobile").css("left", ((logoBodyWidth - mainGifWidthMobile) / 2) + "px");
 
 $(".button").click(function() {
     $(".phase").toggle();
 });
 
+var rand1, rand2, rand3;
+var interval;
+
 function randomIt() {
     return Math.floor(Math.random() * 200)
-}
-var rand1, rand2, rand3;
-
-var interval;
+};
 
 function resetColour() {
     $(".text0").css("color", "white")
@@ -40,6 +43,14 @@ function resetColour() {
     $(".text" + rand2).css("color", "white")
     $(".text" + rand3).css("color", "white")
 };
+
+function arrive(){
+    console.log("mouse is on")
+}
+
+function leave(){
+    console.log("mouse is out")
+}
 
 function repeat() {
     // interval = window.setInterval(function() { console.log("Mouse is on image") }, 1000)
@@ -49,17 +60,16 @@ function repeat() {
 };
 $(".mainGif").on({
     mouseover: function() {
+      arrive(),
         repeat(),
-            displayImage();
+        displayImage();
     },
     mouseout: function() {
         window.clearInterval(interval),
-            resetColour(),
-            resetGif();
+        leave(),
+        resetColour(),
+        resetGif();
     }
-    // function() {
-    //     console.log("mouse is out")
-    // }
 });
 
 function randomHighlighting() {

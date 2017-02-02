@@ -29,6 +29,7 @@ background-image: url("../images/HP_bkimg.png");
 }*/
 
 
+
 /* HOME PAGE */
 
 body.home {
@@ -59,8 +60,8 @@ img.mainGif {
     position: absolute;
     z-index: 10; /* note mobile menu at z-index: 20 */
     /*margin-top: 100px;*/
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 
 .highlight {
@@ -273,6 +274,12 @@ img.grad-img-8 {
     background-color: rgba(0, 0, 0, 0.0);
 }
 
+.modal-backdrop
+{
+    opacity: 1.0 !important;
+    background-color: #EFE4DB;
+}
+
 /* END CSS CAROUSEL */
 
 /* NAV BAR MOBILE */
@@ -413,7 +420,7 @@ a:hover {
 }
 
 .gif_Positioning {
-    position: relative;
+    /*position: relative;*/
 }
 
 
@@ -958,3 +965,9 @@ a {
     /*fixes default bootstrap anchor spacing issue */
     padding-left: 0px;
 }
+
+span.indicator {
+  text-decoration: underline;
+  /*-webkit-text-decoration-color: #FFA197;*/
+  text-decoration-color: #FFA197;
+ }
