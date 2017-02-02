@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Sonja Dorlas</title>
-
-    <!-- Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Mada:900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
-
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
-    <!-- CSS -->
-    <link href="css/style.css" rel="stylesheet">
+<html lang="en" <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Sonja Dorlas</title>
+<!-- Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Mada:900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<script src="https://use.fontawesome.com/07f9f0d505.js"></script>
+<!-- Bootstrap -->
+<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<!-- CSS -->
+<link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="grad">
@@ -29,8 +26,55 @@
             </video>
         </div>
 
-        <!-- BEGIN NAV BAR -->
-        <div class="row">
+        <div class="hidden-md-up">
+            <div class="row phase">
+                <div class="col-6 col-sm-6 mobile-header">
+                    <a href="index.html"><span class="override-bs-anchor">sonn;<br>ya.</span></a>
+                </div>
+                <div class="col-6 col-sm-6 mobile-header icon">
+                    <span class="button"><i class="bars fa fa-bars fa-2x" aria-hidden="true"></i></span>
+                </div>
+            </div>
+            <div class="row phase" style="display: none">
+                <div class="col-12 col-sm-12 ">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 mobile-header mobile-header-on">
+                            <a href="index.html"><span class="override-bs-anchor-on">sonn;<br>ya.</span></a>
+                        </div>
+                        <div class="col-6 col-sm-6 mobile-header mobile-header-on icon icon-on">
+                            <span class="button"><i class="bars fa fa-times fa-2x icon-on" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-12 col-sm-12 mobile-menu">
+                            <table class="">
+                                <tr>
+                                    <td><a href="desmond.html"><span style="color:#FFA197;">Motion Graphics</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#C47F7A"><a href="grad.html"><span style="color:white;">Identity</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="one.html"><span style="color:#FFA197;">UX/UI</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#" onclick="return false;"><span style="color:#FFA197;">Branding & Exhibition</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="rodchenko.html"><span style="color:#FFA197;">Book & Poster</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="about.html"><span style="color:#FFA197;">About</span></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BEGIN NAV BAR md and up-->
+        <div class="row hidden-sm-down">
             <div class="col-1 col-sm-1 col-md-1">
 
             </div>
@@ -379,14 +423,14 @@
     </div>
     <!--END OF CONTAINER FLUID-->
 
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>

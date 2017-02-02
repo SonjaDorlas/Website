@@ -85,6 +85,7 @@ img.mainGif {
     /*margin-left: 30px;*/
     color: white;
 }
+
 @media (max-width: 767px) {
     .logoBody-mobile{
       font-size: 12px;
@@ -284,6 +285,19 @@ img.grad-img-8 {
   line-height: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.override-bs-anchor{
+  font-family: 'Mada', sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+}
+
+.override-bs-anchor-on{
+  color: white;
+  font-family: 'Mada', sans-serif;
+  font-size: 18px;
+  line-height: 16px;
 }
 
 .mobile-header-on{
@@ -747,26 +761,14 @@ ul.topnav li.icon {
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 
-@media screen and (max-width:680px) {
-    ul.topnav li:not(: first-child) {
-        display: none;
-    }
-    ul.topnav li.icon {
-        float: right;
-        display: inline-block;
-    }
-    .logo {
-        display: none;
-    }
-    .header {
-        display: none;
-    }
-}
+
+
+
 
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 
-@media screen and (max-width:680px) {
+/*@media screen and (max-width:680px) {
     ul.topnav.responsive {
         position: relative;
     }
@@ -783,13 +785,13 @@ ul.topnav li.icon {
         display: block;
         text-align: left;
     }
-}
+}*/
 
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
     .burger {
         display: none;
     }
-}
+}*/
 
 
 /* Remove margins and padding from the list, and add a black background color */
@@ -841,7 +843,7 @@ ul.topnav li.icon {
 
 /*MOBILE SITE*/
 
-@media screen and (max-width:680px) {
+/*@media screen and (max-width:680px) {
     ul.topnav li:not(: first-child) {
         display: none;
     }
@@ -901,12 +903,12 @@ ul.topnav li.icon {
     .rodbookgif {
         display: none;
     }
-}
+}*/
 
 
 /*END OF MOBILE*/
 
-@media screen and (max-width:680px) {
+/*@media screen and (max-width:680px) {
     ul.topnav.responsive {
         position: relative;
     }
@@ -923,12 +925,12 @@ ul.topnav li.icon {
         display: block;
         text-align: left;
     }
-}
+}*/
 
 
 /*DESKTOP SITE*/
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     .burger {
         display: none;
     }
@@ -950,7 +952,7 @@ ul.topnav li.icon {
     .img2 {
         display: none;
     }
-}
+}*/
 
 a {
     /*fixes default bootstrap anchor spacing issue */
