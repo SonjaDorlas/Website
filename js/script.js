@@ -73,8 +73,11 @@ $(".mainGif").on({
 });
 
 function randomHighlighting() {
+
+    //prevents first span ever going white.
     $(".text0").css("color", "#FFA197")
-    if (rand1 != 0) { //prevents first span ever going white.
+
+    if (rand1 != 0) {
         $(".text" + rand1).css("color", "white")
     }
     if (rand2 != 0) {
@@ -90,24 +93,12 @@ function randomHighlighting() {
     $(".text" + rand2).css("color", "#FFA197")
     $(".text" + rand3).css("color", "#FFA197")
 };
-// var imagesArray = ["../images/hptestgifimg.png", "../images/gifimagetemplate2.png"];
-// var imagesArray_Pink = []; HP_gifstop_.png
-// var imagesArray_No_Pink = ["../images/HP_gifstop_pink.png", ];
-// var imagesArray = ["images/head2.gpg", "images/head3.jpg"];
 
 function displayImage() {
     console.log("this is the displayImage() function");
-    //the first statement should generate a random number in the range 0 to 6 (the subscript values of the image file names in the imagesArray)
     var num = Math.floor(Math.random() * 7); // 0...6
-    //the second statement display the random image from the imagesArray array in the canvas image using the random number as the subscript value
-    // document.canvas.src = imagesArray[num];
     console.log(num);
-    // document.canvas.src = "images/No_Pink/HP_gifstop_" + (num + 1) + ".png";
-    // document.canvas.src = "images/head1.jpg";
     $(".mainGif").attr("src", "images/No_Pink/HP_gifstop_" + (num + 1) + ".png");
-    // document.canvas.src = "Pink/HP_gifstop" + (num + 1) + "_pink.png";
-    // HP_gifstop7_pink.png
-    // console.log(document.canvas.src);
 }
 
 function resetGif() {

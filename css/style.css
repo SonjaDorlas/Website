@@ -24,10 +24,9 @@ background-image: url("../images/HP_bkimg.png");
 
 
 
-/*div {
-    border-style: solid;
-}*/
-
+  /*div {
+      border-style: solid;
+  }*/
 
 
 /* HOME PAGE */
@@ -966,8 +965,13 @@ a {
     padding-left: 0px;
 }
 
-span.indicator {
+/*span.indicator {
   text-decoration: underline;
-  /*-webkit-text-decoration-color: #FFA197;*/
+  -webkit-text-decoration-color: #FFA197;
   text-decoration-color: #FFA197;
- }
+ }*/
+
+ .indicator {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
