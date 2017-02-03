@@ -99,6 +99,7 @@ function displayImage() {
     var num = Math.floor(Math.random() * 7); // 0...6
     console.log(num);
     $(".mainGif").attr("src", "images/No_Pink/HP_gifstop_" + (num + 1) + ".png");
+    // $(".mainGif").attr("src", "images/Pink/HP_gifstop" + (num + 1) + "_pink.png");
 }
 
 function resetGif() {

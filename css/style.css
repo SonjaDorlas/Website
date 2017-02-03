@@ -70,6 +70,7 @@ img.mainGif {
 .logo {
     font-family: 'Mada', sans-serif;
     font-size: 36px;
+
     line-height: 33px;
     margin-top: 10px;
     /*margin-right: -30px;*/
@@ -973,5 +974,6 @@ a {
 
  .indicator {
     text-decoration: underline;
-    text-decoration-color: blue;
+    -webkit-text-decoration-color: red;
+    text-decoration-color: red;
 }
