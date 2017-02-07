@@ -228,6 +228,9 @@ body.grad {
   background-position: background-repeat: no-repeat;*/
 }
 
+ .mob-grad-gif{
+   width: 100%;
+ }
 
 /* BEGIN CSS CAROUSEL used in grad.html*/
 
