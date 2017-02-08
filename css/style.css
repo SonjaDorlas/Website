@@ -128,6 +128,16 @@ video#bgvidworkpage {
     z-index: -5;
 }
 
+.header-menu-work {
+    margin-left: 20px;
+}
+
+.header-menu-work-line {
+    margin-left: 70px;
+}
+.header-menu-work-line {
+    margin-left: 65px;
+}
 
 /* ABOUT PAGE */
 
@@ -387,22 +397,73 @@ table, tr, td{
     top: 0px;
 }
 
-.header-menu-work {
-    margin-left: 20px;
+/* ONE.HTML PAGE */
+.img_male, .img_female {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.header-menu-work-line {
-    margin-left: 70px;
+.oneviewTopImage {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DESMOND PAGE */
+
+.img_desmond {
+    margin-top: 40px;
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .img_desmond {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
+.desmondTopImage {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  .desmondTopImage {
+    width: 100px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+}
+
+.video_position_desmond {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 300px;
+}
+
+@media (max-width: 767px) {
+    .video_position_desmond {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100%
+    }
 }
 
 .header-menu-about {
     margin-right: 7px;
 }
-
-.header-menu-work-line {
-    margin-left: 65px;
-}
-
 
 .list-inline {
     float: right;
@@ -462,12 +523,6 @@ a:hover {
     margin-left: 55px;
 }
 
-.img_male, .img_female {
-    width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .rod_left, .rod_right {
     height: 300px;
@@ -488,9 +543,6 @@ a:hover {
     height: 600px;
 }
 
-.img_desmond {
-    margin-top: 40px;
-}
 
 .video_position {
     display: block;
@@ -502,12 +554,7 @@ a:hover {
     margin-top: 165px;
 }
 
-.oneviewTopImage {
-    margin-top: 80px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .oneviewgif{
   width: 400px;
