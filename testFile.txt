@@ -1,4 +1,0 @@
-blah this is a testFile
-to test how files in the 
-working directory behave 
-across different branches
