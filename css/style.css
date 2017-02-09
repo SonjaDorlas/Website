@@ -229,6 +229,23 @@ body.rod {
     background-color: #E8E0E4;
 }
 
+.rodGif {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+@media (max-width: 767px) {
+  .rodGif {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
 
 /* GRAD PAGE */
 
@@ -461,6 +478,7 @@ table, tr, td{
     }
 }
 
+
 .header-menu-about {
     margin-right: 7px;
 }
@@ -631,6 +649,12 @@ a:hover {
     font-weight: 800;
     text-align: center;
     margin-top: 90px;
+}
+
+@media (max-width: 767px) {
+  .title {
+      margin-top: 20px;
+  }
 }
 
 .subtitle {
