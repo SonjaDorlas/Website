@@ -34,7 +34,7 @@ var rand1, rand2, rand3;
 var interval;
 
 function randomIt() {
-    return Math.floor(Math.random() * 200)
+    return Math.floor(Math.random() * 102)
 };
 
 function resetColour() {

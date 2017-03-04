@@ -59,6 +59,7 @@ img.curlyArrowRight{
     line-height: 36px;
     margin-top: 10px;
     color: white;
+    font-size: 2vw;
 }
 
 @media (max-width: 767px) {
