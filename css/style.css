@@ -16,6 +16,18 @@ img.mainGif {
     margin-right: auto;
 }
 
+img.curlyArrowLeft{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 0;
+}
+
+img.curlyArrowRight{
+  position: absolute;
+  bottom: 0;
+}
+
 .mainGif {
     position: absolute;
     z-index: 10;
