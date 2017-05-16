@@ -52,7 +52,7 @@ img.curlyArrowRight{
     margin-top: 10px;
 }
 
-.logoBody {
+/*.logoBody {
     font-family: 'Karla', sans-serif;
     font-weight: bold;
     font-size: 26px;
@@ -67,6 +67,42 @@ img.curlyArrowRight{
       font-size: 18px;
       line-height: 24px;
     }
+}*/
+
+@media (min-width: 767px) {
+  .logoBody-mobile {
+    display: none;
+  }
+  .logoBody {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 10px;
+    color: white;
+    font-size: 2vw;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 767px) {
+  .logoBody {
+    display: none;
+  }
+  .logoBody-mobile {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    /*line-height: 36px;*/
+    margin-top: 10px;
+    color: white;
+    /*font-size: 2vw;*/
+    /*text-align: justify;*/
+
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+  }
 }
 
 
@@ -85,7 +121,7 @@ video#bgvidworkpage {
 }
 
 .fullscreen-bg {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -94,14 +130,14 @@ video#bgvidworkpage {
     z-index: -100;
 }
 
-.fullscreen-bg-video {
+/*.fullscreen-bg-video {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -5;
-}
+}*/
 
 .header-menu-work {
     margin-left: 20px;
@@ -314,6 +350,45 @@ img.grad-img-8 {
     background-color: #EFE4DB;
 }
 
+img.grad_1_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.grad_2_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.grad_3_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.grad_5_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.grad_6_pic {
+  width: 100%;
+  height: 50%;
+}
+
+img.grad_7_pic {
+  width: 100%;
+  height: 50%;
+}
+
+img.grad_8_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.grad_9_pic {
+  width: 100%;
+  height: 100%;
+}
 /* END CSS CAROUSEL */
 
 /* NAV BAR MOBILE */
@@ -410,6 +485,21 @@ img.header-menu-uline{
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+img.one_1_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.one_2_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.one_3_pic {
+  width: 100%;
+  height: 100%;
 }
 
 /* DESMOND PAGE */
@@ -553,6 +643,56 @@ a:hover {
 
 .rod_pineapple_right {
     height: 600px;
+}
+
+img.rod_2_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.rod_3_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.rod_4_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.rod_5_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.rod_6_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.rod_7_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.rod_8_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.rod_9_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.rod_10_pic {
+  width: 100%;
+  height: 100%;
+}
+
+img.rod_11_pic {
+  width: 100%;
+  height: 100%;
 }
 
 
