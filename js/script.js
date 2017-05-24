@@ -13,6 +13,8 @@ console.log('logoBodyWidth = ' + logoBodyWidth);
 console.log('mainGifWidthMobile = ' + mainGifWidthMobile);
 console.log('windowWidth = ' + windowWidth);
 console.log('gifMobPos = ' + gifMobPos);
+
+
 $('.carousel').carousel('cycle');
 
 $('#modal').modal();
