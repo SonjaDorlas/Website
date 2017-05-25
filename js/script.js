@@ -14,6 +14,23 @@ console.log('mainGifWidthMobile = ' + mainGifWidthMobile);
 console.log('windowWidth = ' + windowWidth);
 console.log('gifMobPos = ' + gifMobPos);
 
+$('a[href*="#"]:not([href="#"])').click(function() {
+  console.log("blah");
+
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
+    location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+
 
 $('.carousel').carousel('cycle');
 

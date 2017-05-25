@@ -1,5 +1,3 @@
-
-
 /* HOME PAGE */
 
 body.home {
@@ -704,11 +702,20 @@ img.rod_11_pic {
     margin-right: auto;
 }
 
+/*BEGIN SIDE BAR*/
 .firstSideMenuElement {
-    margin-top: 165px;
+    margin-top: 0px;
 }
 
-
+.side-bar {
+   margin-top: 200px;
+   margin-right: 20px;
+   /*background-color: blue;*/
+   display: block;
+   height: 400px;
+   overflow: scroll;
+}
+/*END SIDE BAR*/
 
 .oneviewgif{
   width: 400px;
